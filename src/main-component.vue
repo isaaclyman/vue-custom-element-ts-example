@@ -1,6 +1,6 @@
 <template>
-  <div>
-    Example Component works!
+  <div class="custom-element-inside">
+    <example-component></example-component>
   </div>
 </template>
 
