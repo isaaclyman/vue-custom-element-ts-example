@@ -6,7 +6,7 @@ import ExampleComponent from './example-component.vue'
 Vue.config.productionTip = false
 
 Vue.use(VueCustomElement)
-Vue.customElement('example-component', <ComponentOptions<Vue>>ExampleComponent)
+Vue.customElement('example-component', ExampleComponent)
 
 new Vue({
   render: h => h(MainComponent)
